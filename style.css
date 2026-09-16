@@ -371,6 +371,8 @@ p {
   border-radius: var(--radius);
   margin: 24px 0;
   border: 1px solid var(--border);
+  transition: transform var(--transition), border-color var(--transition);
+
 }
 
 .image-row {
@@ -400,7 +402,6 @@ p {
   height: 120px;
   border-radius: var(--radius);
   border: 1px solid var(--border);
-  justify-content: center;
 }
 
 .viet2, .viet3 { display: none; } /* hide mis-positioned images */
@@ -497,6 +498,11 @@ a img[alt="Logo"]:hover { opacity: 1; }
 }
 
 .photo-grid img:hover {
+  transform: scale(1.02);
+  border-color: rgba(200,240,96,0.3);
+}
+
+.pic2 img:hover {
   transform: scale(1.02);
   border-color: rgba(200,240,96,0.3);
 }
