@@ -427,12 +427,6 @@ p {
   .reveal { opacity: 1; transform: none; transition: none; }
 }
 
-/* ─── Contact info ───────────────────────────────────────── */
-.section p a,
-.section p {
-  color: #888;
-}
-
 /* ─── Footer ─────────────────────────────────────────────── */
 footer {
   text-align: center;
