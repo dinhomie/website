@@ -500,11 +500,26 @@ a img[alt="Logo"]:hover { opacity: 1; }
 .photo-grid img:hover {
   transform: scale(1.02);
   border-color: rgba(200,240,96,0.3);
+  transition: transform var(--transition), border-color var(--transition);
 }
 
 .pic2 img:hover {
   transform: scale(1.02);
   border-color: rgba(200,240,96,0.3);
+  transition: transform var(--transition), border-color var(--transition);
+
+}
+
+.pic img:hover {
+  transform: scale(1.02);
+  border-color: rgba(200,240,96,0.3);
+  transition: transform var(--transition), border-color var(--transition);
+}
+
+.flags img:hover {
+  transform: scale(1.02);
+  border-color: rgba(200,240,96,0.3);
+  transition: transform var(--transition), border-color var(--transition);
 }
 
 /* ─── Section for Vietnam ────────────────────────────────── */
